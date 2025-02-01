@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Welcome to the portfolio of Samrawit Alemzewd, a software engineering student." />
+    <link rel="stylesheet" href="./style.css">
+    <title>Portfolio - Samrawit Alemzewd</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <label class="logo">Samrawit</label>
+            <ul class="menuList">
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="menuIcon hamburger" aria-label="Toggle navigation" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <section id="introduction" class="introduction">
+        <h2>Introduction</h2>
+        <p>
+            My name is Samrawit Alemzewd, and I am a software engineering student at
+            Addis Ababa Institute of Technology (AAiT). I have a passion for
+            technology and love to engage in new challenges that allow me to learn
+            and grow. Whether it's developing applications, exploring new
+            programming languages, or collaborating on innovative projects, I strive
+            to expand my skills and knowledge.
+        </p>
+        <p>
+            In my spare time, I enjoy participating in hackathons, contributing to
+            open-source projects, and keeping up with the latest tech trends. My
+            goal is to create impactful software solutions that improve lives and
+            contribute positively to society.
+        </p>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming Languages: Python, Java, JavaScript</li>
+            <li>Web Development: HTML, CSS</li>
+            <li>Database Management: MySQL, MongoDB</li>
+            <li>Version Control: Git, GitHub</li>
+            <li>Problem Solving & Algorithms</li>
+            <li>Software Development Methodologies: Waterfall</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <p>As a student, I've worked on a variety of projects that showcase my skills and creativity:</p>
+        <ul>
+            <li><strong>Personal Portfolio Website:</strong> A responsive website to showcase my projects and skills.</li>
+            <li><strong>Tic-Tac-Toe Game:</strong> A simple interactive game developed as part of an internship task.</li>
+            <li><strong>FAQ Application:</strong> A web application that provides answers to frequently asked questions.</li>
+            <li><strong>Simple Text Editor:</strong> A basic text editor built in Java for creating and editing text files.</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="contact-form">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required />
+            <div class="error-message" id="nameError">Please enter your name.</div>
+
+            <input type="email" id="email" placeholder="Your Email" required />
+            <div class="error-message" id="emailError">Please enter a valid email address.</div>
+
+            <input type="tel" id="phone" placeholder="Your Phone (09XXXXXXXX)" required />
+            <div class="error-message" id="phoneError">Please enter a valid phone number in the format 09XXXXXXXX.</div>
+
+            <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+            <div class="error-message" id="messageError">Please enter your message.</div>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footerside">
+            <p>Contact me:</p>
+            <ul>
+                <li>Email: samrawit458@gmail.com</li>
+                <li>Phone: +251941230236</li>
+                <li><a href="https://www.linkedin.com/in/samrawit-alemzewd-b6864a328">LinkedIn</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="./index.js"></script>
+    </body>
+</html>
